@@ -166,7 +166,7 @@ class Particle {
 function init() {
   particles = []
 
-  for (let i = 0; i < canvas.width / 20; i++) {
+  for (let i = 0; i < canvas.width / 15; i++) {
     let radius = randomIntFromRange(1, 30)
     let x = randomIntFromRange(radius, canvas.width - radius)
     let y = randomIntFromRange(radius, canvas.height - radius)
