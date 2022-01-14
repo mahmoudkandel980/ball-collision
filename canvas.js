@@ -24,7 +24,11 @@ function distance(x1, y1, x2, y2) {
   return Math.sqrt(Math.pow(xDist, 2) + Math.pow(yDist, 2))
 }
 
-const colors = ['#2185C5', '#7ECEFD', '#FFF6E5', '#FF7F66']
+const colors = ['#F2F2F2', '#BFBFBF', '#8C8C8C', '#595959', '#404040', '#6E7474',
+  '#DCDEDA', '#08171C', '#4B5663', '#3F5358', '#474544', '#E1DBD9', '#C7BFBD',
+  '#4D4B4A', '#918C8A', '#555C6C', '#2C393F', '#142020', '#CCCCC0', '#E7F0F2',
+  '#A6A6A6', '#262626', '#F2F2F2', '#8C8C8C', '#595959', '#B3B3B3', '#737373',
+  '#FFFFFF']
 
 // Event Listeners
 addEventListener('mousemove', (event) => {
